@@ -9,6 +9,7 @@ class StoryListItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+
       margin: const EdgeInsets.all(10),
       padding: const EdgeInsets.all(10),
       decoration: BoxDecoration(borderRadius: BorderRadius.circular(12),color: Colors.white),

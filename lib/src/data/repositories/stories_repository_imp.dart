@@ -2,10 +2,10 @@ import 'dart:io';
 
 import 'package:dio/dio.dart';
 import 'package:jumpapp/src/core/resources/data_state.dart';
+import 'package:jumpapp/src/data/data_sources/remote/api_services.dart';
 import 'package:jumpapp/src/domain/entities/story.dart';
 import 'package:jumpapp/src/domain/repositories/stories_repository.dart';
 
-import '../remote/api_services.dart';
 
 class StoriesRepositoryImp extends StoriesRepository {
   final ApiService _apiServices;

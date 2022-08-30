@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:jumpapp/src/data/remote/logger_interceptor.dart';
+import 'package:jumpapp/src/data/data_sources/remote/logger_interceptor.dart';
 class DioClient{
 
 
