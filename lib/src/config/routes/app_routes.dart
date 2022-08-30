@@ -20,8 +20,8 @@ class AppRoutes {
       case HomeScreen.routeName:
         return _materialRoute(const HomeScreen());
 
-      case StoryDetailsScreen.routeName:
-        return _materialRoute(const StoryDetailsScreen());
+      // case StoryDetailsScreen.routeName:
+      //   return _materialRoute(StoryDetailsScreen());
 
 
       default:

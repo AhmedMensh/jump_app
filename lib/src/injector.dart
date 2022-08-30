@@ -10,6 +10,7 @@ import 'package:jumpapp/src/domain/repositories/stories_repository.dart';
 import 'package:jumpapp/src/presentation/screens/home/bloc/stories_cubit.dart';
 import 'package:jumpapp/src/presentation/screens/login/bloc/login_cubit.dart';
 import 'package:jumpapp/src/presentation/screens/splash/bloc/login_status_cubit.dart';
+import 'package:jumpapp/src/presentation/screens/story_details/bloc/story_details_cubit.dart';
 
 import 'data/repositories/user_repository_imp.dart';
 import 'domain/repositories/user_repository.dart';
@@ -34,5 +35,6 @@ Future<void> injectDependencies() async {
   locator.registerFactory<StoriesCubit>(() => StoriesCubit(locator()));
   locator.registerFactory<LoginStatusCubit>(() => LoginStatusCubit(locator()));
   locator.registerFactory<LoginCubit>(() => LoginCubit(locator()));
+  locator.registerFactory<StoryDetailsCubit>(() => StoryDetailsCubit(locator()));
 
 }

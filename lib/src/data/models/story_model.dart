@@ -15,7 +15,7 @@ class StoryModel extends Story {
             id: id,
             title: title,
             url: url,
-            commentIds: kids,
+            kids: kids,
             type: type,
             by: by,
             descendants: descendants,
